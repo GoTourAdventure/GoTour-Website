@@ -8,14 +8,15 @@ O GoTour é um aplicativo mobile com propósito de tornar as experiências turí
 
 Siga os passos abaixo para baixar e instalar o projeto em sua máquina local:
 
-* 1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
-* 2. Abra o terminal e navegue até o diretório onde deseja clonar o projeto.
-* 3. Execute o seguinte comando para clonar o repositório: https://github.com/Jonas-eng-21/GoTour-Website.git
-* 4. Navegue para o diretório do projeto: 
+* Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
+* Abra o terminal e navegue até o diretório onde deseja clonar o projeto.
+* Execute o seguinte comando para clonar o repositório:
+  * `git clone https://github.com/Jonas-eng-21/GoTour-Website.git`
+* Navegue para o diretório do projeto:
   * `cd gotour-adventure`
-* 5. Instale as dependências do projeto utilizando o npm:
+* Instale as dependências do projeto utilizando o npm:
   * `npm install`
-* 6. Execute o projeto:
+* Execute o projeto:
   * `npm start`
 
 ## Por que React?
