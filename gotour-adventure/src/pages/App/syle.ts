@@ -1,8 +1,16 @@
-.App {
-  text-align: center;
-}
+import { styled } from "styled-components";
 
-.App-logo {
+export const Container = styled.div`
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #16A5C1 , #479FA6, #0C8E98);
+
+  .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -14,7 +22,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +43,5 @@
     transform: rotate(360deg);
   }
 }
+
+`;
