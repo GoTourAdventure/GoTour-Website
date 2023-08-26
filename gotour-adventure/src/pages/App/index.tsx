@@ -1,5 +1,5 @@
-import logo from '../../logo.svg';
 import { Container } from "../App/syle";
+import logo from "../../assets/LOGO PINCIPAL 2.svg";
 
 export default function Home() {
   return (
