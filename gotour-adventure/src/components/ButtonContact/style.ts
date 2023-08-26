@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const Button = styled.div`
   .btn {
-    position: relative;
+    /* position: relative; */
     display: flex;
     overflow: hidden;
     cursor: pointer;
@@ -70,9 +70,12 @@ export const Button = styled.div`
   .btn:hover svg {
     opacity: 1;
   }
+
   .icon {
-    background-color: black;
-    height: 30%;
-    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
   }
 `;
