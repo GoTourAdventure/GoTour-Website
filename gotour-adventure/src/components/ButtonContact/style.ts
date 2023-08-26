@@ -8,7 +8,7 @@ export const Button = styled.div`
     cursor: pointer;
     width: 150px;
     height: 50px;
-    background-color: #eeeeed;
+    background-color: #FFA64A;
     border-radius: 80px;
     border: none;
     padding: 0 80px;
@@ -34,7 +34,7 @@ export const Button = styled.div`
     line-height: 50px;
     letter-spacing: 2px;
     color: #eeeeed;
-    background-color: #1f1f1f;
+    background-color: #FF8100;
     padding: 0 10px;
     transition: all 1.2s ease;
   }
@@ -69,5 +69,10 @@ export const Button = styled.div`
 
   .btn:hover svg {
     opacity: 1;
+  }
+  .icon {
+    background-color: black;
+    height: 30%;
+    width: 30%;
   }
 `;
