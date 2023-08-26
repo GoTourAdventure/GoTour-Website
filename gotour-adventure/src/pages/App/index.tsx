@@ -1,11 +1,13 @@
 import { Container } from "../App/syle";
 import logo from "../../assets/LOGO PINCIPAL 2.svg";
+import ButtonContact from "../../components/ButtonContact";
 
 export default function Home() {
   return (
     <Container>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <ButtonContact />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -20,4 +22,4 @@ export default function Home() {
       </header>
     </Container>
   );
-};
+}
