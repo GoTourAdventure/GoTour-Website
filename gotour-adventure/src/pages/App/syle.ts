@@ -8,8 +8,16 @@ export const Container = styled.div`
   align-items: center;
   align-content: center;
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   background-image: linear-gradient(to right, #16a5c1, #479fa6, #0c8e98);
+  scroll-behavior: smooth;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  h1{
+    padding-top: 5%;
+    font-size: 2em;
+  }
 
   .App-logo {
     height: 50%;

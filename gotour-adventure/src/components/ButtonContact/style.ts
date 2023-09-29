@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const Button = styled.div`
+export const ButtonBody = styled.div`
   .btn {
     /* position: relative; */
     display: flex;
@@ -78,4 +78,13 @@ export const Button = styled.div`
     width: 30px;
     height: 30px;
   }
+
+`;
+
+export const Display = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
 `;

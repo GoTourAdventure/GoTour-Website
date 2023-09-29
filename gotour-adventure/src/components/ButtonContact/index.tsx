@@ -1,13 +1,29 @@
-import { Button } from "./style";
+import React from "react";
+import { ButtonBody, Display } from "./style";
 import whats from "../../assets/whatsapp.png";
 import gmail from "../../assets/gmail.png";
 import lin from "../../assets/linkedin.png";
+import DialogContent from "@mui/material/DialogContent";
+import Email from "@mui/icons-material/Email";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import Avatar from "@mui/material/Avatar";
+import { Dialog, DialogContentText } from "@mui/material";
 
 export default function ButtonContact() {
+  const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
   return (
     <>
-      <Button>
-        <button className="btn">
+      <ButtonBody>
+        <button className="btn" onClick={handleClickOpen}>
           <span>Contatos</span>
           <div className="container">
             <img src={whats} className="icon" alt="whats" />
@@ -15,7 +31,39 @@ export default function ButtonContact() {
             <img src={lin} className="icon" alt="lin" />
           </div>
         </button>
-      </Button>
+        <Dialog
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="alert-dialog-title"
+          aria-describedby="alert-dialog-description"
+        >
+          <DialogContent>
+            <DialogContentText id="alert-dialog-description">
+              <Display>
+                <Avatar>
+                  <WhatsAppIcon />
+                </Avatar>
+                <p>(DDD) 99999-9999</p>
+              </Display>
+              <Display>
+                <Avatar>
+                  <Email />
+                </Avatar>
+                <p>gotour2023@gmail.com</p>
+              </Display>
+              <Display>
+                <Avatar>
+                  <LinkedInIcon />
+                </Avatar>
+                <a
+                  href="https://www.linkedin.com/in/gotour-adventures-305553273?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BPF5pludrTyWiUYQ79uZX0A%3D%3D
+"
+                >Linkedin</a>
+              </Display>
+            </DialogContentText>
+          </DialogContent>
+        </Dialog>
+      </ButtonBody>
     </>
   );
 }
