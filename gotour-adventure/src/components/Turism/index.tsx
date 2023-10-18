@@ -4,7 +4,7 @@ import ar from "../../assets/ICON PERSON WALK.svg";
 export default function Turism() {
   return (
     <>
-      <BodyContainer>
+      <BodyContainer id="five">
         <Container>
           <h1>Turistas</h1>
           <p>

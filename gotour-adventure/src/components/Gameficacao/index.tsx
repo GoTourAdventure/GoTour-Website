@@ -4,7 +4,7 @@ import ar from "../../assets/d403d33c12ea1b7131194ea0116461f21553544330-.jpg";
 export default function Gameficacao() {
   return (
     <>
-      <BodyContainer>
+      <BodyContainer id="three">
         <img src={ar} className="Ponto" alt="logo" />
         <Container>
           <h1>Gameficação</h1>

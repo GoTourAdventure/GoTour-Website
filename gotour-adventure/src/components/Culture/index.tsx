@@ -4,7 +4,7 @@ import relogio from "../../assets/f04253344f963c8afe9b6d5432889098.jpg";
 export default function Culture() {
   return (
     <>
-      <BodyContainer>
+      <BodyContainer id="one">
         <Container>
           <h1>Cultura</h1>
           <p>

@@ -12,23 +12,33 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 
+import { useState, useEffect } from 'react';
+
 export default function Home() {
-  const [value, setValue] = React.useState("one");
+  const [value, setValue] = useState("zero");  
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
+    scrollToSection(newValue);
+  };
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
-    <Container>
-      <header className="App-header">
+    <Container id="zero">
+      <header className={`App-header`}>
         <Box sx={{ width: "100%" }}>
           <Tabs
             value={value}
-            onChange={handleChange}
-            aria-label="secondary tabs example"
+            onChange={handleChange}            
             centered
           >
+            <Tab value="zero" label="Início" />
             <Tab value="one" label="Cultura" />
             <Tab value="two" label="O que é" />
             <Tab value="three" label="Gameficação" />
@@ -38,16 +48,16 @@ export default function Home() {
             <Tab value="seven" label="Empreendedores Locais" />
           </Tabs>
         </Box>
-        <img src={logo} className="App-logo " alt="logo" />
-        <ButtonContact />
-        <Culture />
-        <About />
-        <Gameficacao />
-        <h1>Para quem é o GoTour?</h1>
-        <Turism />
-        <PontoTuristico />
-        <Empreendedores />
       </header>
+      <img src={logo} className="App-logo" alt="logo" />
+      <ButtonContact />      
+      <Culture />
+      <About />
+      <Gameficacao />
+      <h1 id="four">Para quem é o GoTour?</h1>
+      <Turism />
+      <PontoTuristico />
+      <Empreendedores />
     </Container>
   );
 }

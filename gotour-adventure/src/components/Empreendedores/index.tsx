@@ -3,7 +3,7 @@ import { BodyContainer, Container } from "./style";
 export default function Empreendedores() {
   return (
     <>
-      <BodyContainer>
+      <BodyContainer id="seven">
         <Container>
           <h1>Empreendedores Locais</h1>
           <p>

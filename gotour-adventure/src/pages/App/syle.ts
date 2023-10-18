@@ -9,12 +9,22 @@ export const Container = styled.div`
   align-content: center;
   height: 100%;
   max-width: 100%;
-  background-image: linear-gradient(to right, #16a5c1, #479fa6, #0c8e98);
   scroll-behavior: smooth;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+  font-size: calc(10px + 1vmin);
+  color: #0C8E98;
 
-  h1{
+  .homeSection{
+    display: flex;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1 {
     padding-top: 5%;
     font-size: 2em;
   }
@@ -25,17 +35,30 @@ export const Container = styled.div`
   }
 
   .App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+    background-image: linear-gradient(to right, #16a5c1, #479fa6, #0c8e98);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;    
+    z-index: 1000; 
+    border-radius: 0 0 35px 35px;     
   }
 
   .App-link {
     color: #61dafb;
+  }  
+
+  .Mui-selected{
+    font-weight: bold;
+    color: #FF8100;
+  }
+
+  .MuiTab-textColorPrimary{
+    color: black;
+  }
+
+  .MuiTab-textColorSecondary{
+    color: #FF8100;
   }
 
   @keyframes App-logo-spin {

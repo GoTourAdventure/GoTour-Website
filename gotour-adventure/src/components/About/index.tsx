@@ -4,9 +4,9 @@ import logo from "../../assets/LOGO PRINCIPAL 1.svg";
 export default function About() {
   return (
     <>
-      <BodyContainer>
+      <BodyContainer id="two">
         <img src={logo} className="Ponto" alt="logo" />
-        <Container>
+        <Container >
           <h1>O que é</h1>
           <p>
             O GoTour é um aplicativo mobile com propósito de tornar as
