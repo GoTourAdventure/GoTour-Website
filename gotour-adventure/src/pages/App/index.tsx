@@ -1,7 +1,5 @@
 import React from "react";
 import { Container } from "../App/syle";
-import logo from "../../assets/LOGO PINCIPAL 2.svg";
-import ButtonContact from "../../components/ButtonContact";
 import Culture from "../../components/Culture";
 import About from "../../components/About";
 import Gameficacao from "../../components/Gameficacao";
@@ -13,6 +11,7 @@ import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 
 import { useState, useEffect } from 'react';
+import HomeSection from "../../components/HomeSection";
 
 export default function Home() {
   const [value, setValue] = useState("zero");  
@@ -49,8 +48,7 @@ export default function Home() {
           </Tabs>
         </Box>
       </header>
-      <img src={logo} className="App-logo" alt="logo" />
-      <ButtonContact />      
+      <HomeSection/>
       <Culture />
       <About />
       <Gameficacao />
