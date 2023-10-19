@@ -2,21 +2,16 @@ import { styled } from "styled-components";
 
 export const BodyContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
-
-  .Ponto {
-    height: 50%;
-    width: 50%;
-  }
 `;
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   align-content: center;
@@ -30,4 +25,15 @@ export const Container = styled.div`
     font-size: 1em;
     text-align: justify;
   }
+  .Ponto {
+    
+    width: 40%;
+  }
 `;
+
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-right: 40px;
+`
