@@ -41,10 +41,7 @@ export default function Home() {
             <Tab value="one" label="Cultura" />
             <Tab value="two" label="O que é" />
             <Tab value="three" label="Gameficação" />
-            <Tab value="four" label="Para quem é o GoTour?" />
-            <Tab value="five" label="Turistas" />
-            <Tab value="six" label="Pontos Turísticos" />
-            <Tab value="seven" label="Empreendedores Locais" />
+            <Tab value="four" label="Para quem é o GoTour?" />            
           </Tabs>
         </Box>
       </header>

@@ -3,7 +3,7 @@ import { BodyContainer, Container } from "./style";
 export default function PontoTuristico() {
   return (
     <>
-      <BodyContainer id="six">
+      <BodyContainer>
         <Container>
           <h1>Pontos Turísticos</h1>
           <p>

@@ -6,7 +6,7 @@ export const BodyContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-
+  height: 100vh;
   .Ponto {
     height: 50%;
     width: 50%;
