@@ -30,13 +30,14 @@ export default function Home() {
     const handleScroll = () => {
       const scrollY = window.scrollY;
 
+      const viewport = window.innerHeight + window.innerHeight / 3;
       if (scrollY < window.innerHeight) {
         setValue("zero");
-      } else if (scrollY < window.innerHeight + 300) {
+      } else if (scrollY < viewport) {
         setValue("one");
-      } else if (scrollY < (window.innerHeight + 300)* 2) {
+      } else if (scrollY < viewport* 2) {
         setValue("two");
-      } else if (scrollY < (window.innerHeight + 300) *3 ){
+      } else if (scrollY < viewport *3 ){
         setValue("three");
       } else {
         setValue("four");
