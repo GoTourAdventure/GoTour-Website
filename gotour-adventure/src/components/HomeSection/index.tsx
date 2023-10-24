@@ -5,7 +5,7 @@ import ButtonContact from "../ButtonContact";
 export default function HomeSection() {
   return (
     <>
-      <BodyContainer>
+      <BodyContainer id="zero">
         <Container>
           <img src={logo} className="App-logo" alt="logo" />
           <ButtonContact />

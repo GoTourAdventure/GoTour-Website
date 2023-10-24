@@ -13,6 +13,8 @@ export const BodyContainer = styled.div`
 
   .Ponto {
     width: 45%;
+    margin-right: 40px;
+    margin-top: 40px;
   }
 `;
 
@@ -28,8 +30,7 @@ export const Container = styled.div`
   h1{
     font-size: 2em;
   }
-  p{
-    padding-left: 2%;
+  p{    
     font-size: 1em;
     text-align: justify;
   }

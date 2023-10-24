@@ -1,5 +1,5 @@
-import React from "react";
-import { Container } from "../App/syle";
+import React, { useState, useEffect } from "react";
+import { Container } from "./style";
 import Culture from "../../components/Culture";
 import About from "../../components/About";
 import Gameficacao from "../../components/Gameficacao";
@@ -9,12 +9,10 @@ import Empreendedores from "../../components/Empreendedores";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
-
-import { useState, useEffect } from 'react';
 import HomeSection from "../../components/HomeSection";
 
 export default function Home() {
-  const [value, setValue] = useState("zero");  
+  const [value, setValue] = useState("zero");
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
@@ -28,28 +26,48 @@ export default function Home() {
     }
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+
+      if (scrollY < window.innerHeight) {
+        setValue("zero");
+      } else if (scrollY < window.innerHeight + 300) {
+        setValue("one");
+      } else if (scrollY < (window.innerHeight + 300)* 2) {
+        setValue("two");
+      } else if (scrollY < (window.innerHeight + 300) *3 ){
+        setValue("three");
+      } else {
+        setValue("four");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <Container id="zero">
+    <Container>
       <header className={`App-header`}>
         <Box sx={{ width: "100%" }}>
-          <Tabs
-            value={value}
-            onChange={handleChange}            
-            centered
-          >
+          <Tabs value={value} onChange={handleChange} centered>
             <Tab value="zero" label="Início" />
             <Tab value="one" label="Cultura" />
             <Tab value="two" label="O que é" />
             <Tab value="three" label="Gameficação" />
-            <Tab value="four" label="Para quem é o GoTour?" />            
+            <Tab value="four" label="Para quem é o GoTour?" />
           </Tabs>
         </Box>
       </header>
-      <HomeSection/>
+      <HomeSection />
       <Culture />
       <About />
       <Gameficacao />
-      <h1 id="four">Para quem é o GoTour?</h1>
+      <h1 id={"four"}> Para quem é o GoTour?</h1>
       <Turism />
       <PontoTuristico />
       <Empreendedores />

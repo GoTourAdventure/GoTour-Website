@@ -10,6 +10,7 @@ export const BodyContainer = styled.div`
   .Ponto {
     height: 50%;
     width: 50%;
+    margin-right: 40px;
   }
 `;
 
