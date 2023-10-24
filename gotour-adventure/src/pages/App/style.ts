@@ -50,15 +50,19 @@ export const Container = styled.div`
 
   .Mui-selected{
     font-weight: bold;
-    color: #FF8100;
+    color: #FFA64A !important;
+  }
+  .MuiTabs-indicator{    
+    background: #FFA64A;
   }
 
   .MuiTab-textColorPrimary{
     color: black;
+    font-weight: bold;
   }
 
   .MuiTab-textColorSecondary{
-    color: #FF8100;
+    color: pink;
   }
 
   @keyframes App-logo-spin {
