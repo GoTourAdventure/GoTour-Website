@@ -10,8 +10,8 @@ export const Container = styled.div`
   height: 100%;
   max-width: 100%;
   scroll-behavior: smooth;
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
   padding-top: 30px;
   font-size: calc(10px + 1vmin);
   color: #0C8E98;
@@ -35,7 +35,7 @@ export const Container = styled.div`
   }
 
   .App-header {
-    background-image: linear-gradient(to right, #16a5c1, #479fa6, #0c8e98);
+    background-image: linear-gradient(to right, #16a5c1, #16a5c1, #16a5c1);
     position: fixed;
     top: 0;
     left: 0;
@@ -57,7 +57,7 @@ export const Container = styled.div`
   }
 
   .MuiTab-textColorPrimary{
-    color: black;
+    color: white;
     font-weight: bold;
   }
 

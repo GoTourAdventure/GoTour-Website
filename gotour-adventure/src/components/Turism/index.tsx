@@ -1,5 +1,5 @@
 import { BodyContainer, Container } from "./style";
-import ar from "../../assets/ICON PERSON WALK.svg";
+import ar from "../../assets/Turista.png";
 
 export default function Turism() {
   return (

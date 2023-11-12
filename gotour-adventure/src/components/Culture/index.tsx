@@ -1,38 +1,17 @@
 import { BodyContainer, Container, Content } from "./style";
-import relogio from "../../assets/f04253344f963c8afe9b6d5432889098.jpg";
 
 export default function Culture() {
   return (
     <>
       <BodyContainer id="one">
-        <h1>Cultura</h1>
         <Container>
           <Content>
+            <h1>Cultura</h1>
             <p>
-              A cultura desempenha um papel fundamental no turismo, enriquecendo a
-              experiência dos viajantes. Quando visitamos novos lugares, somos
-              apresentados a tradições, gastronomia, música e costumes locais.
-              Essa diversidade cultural torna cada destino único e atrai viajantes
-              em busca de novas experiências.
+              O <span className="gotour-span">GoTour</span> entende que a cultura é um componente vital do turismo, proporcionando aos viajantes uma experiência enriquecedora através do contato com tradições, culinária, música e hábitos locais. Essas características culturais distintas conferem singularidade a cada destino e atraem aqueles que procuram novidades e aprendizado.
             </p>
-            <p>Ao mergulhar na cultura local, os
-              turistas têm a oportunidade de aprender, apreciar e respeitar
-              diferentes modos de vida. Isso promove a compreensão mútua entre
-              pessoas de diferentes origens e contribui para a construção de um
-              mundo mais tolerante e inclusivo. Além disso, a cultura também
-              impulsiona a economia do turismo, gerando empregos e promovendo o
-              comércio local.</p>
-            <p>
-              Artesanato, festivais e eventos culturais são
-              atrações populares que beneficiam as comunidades locais e
-              proporcionam aos visitantes lembranças autênticas de suas viagens.
-              Em resumo, a cultura desempenha um papel essencial no turismo,
-              tornando cada viagem uma oportunidade de aprendizado, apreciação e
-              conexão com o mundo ao nosso redor. Portanto, ao viajar, não deixe
-              de explorar e respeitar a riqueza cultural dos destinos que visita.
-            </p>
+            <p>Imersões na cultura local permitem que turistas ganhem conhecimento e respeito por diferentes estilos de vida, fomentando um entendimento mútuo e incentivando um mundo mais aberto e inclusivo. A cultura também estimula a economia do turismo, ao gerar empregos e dinamizar o comércio local. Artesanato, festivais e eventos culturais não apenas beneficiam as comunidades onde ocorrem, mas também oferecem aos viajantes memórias genuínas e significativas. Viajar, portanto, torna-se uma jornada de aprendizado e de conexão profunda com a diversidade cultural do mundo.</p>
           </Content>
-          <img src={relogio} className="Ponto" alt="logo" />
         </Container>
       </BodyContainer>
     </>

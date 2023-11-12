@@ -10,6 +10,8 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import HomeSection from "../../components/HomeSection";
+import ForWhoItIs from "../../components/ForWho";
+import Footer from "../../components/Footer";
 
 export default function Home() {
   const [value, setValue] = useState("zero");
@@ -68,10 +70,11 @@ export default function Home() {
       <Culture />
       <About />
       <Gameficacao />
-      <h1 id={"four"}> Para quem é o GoTour?</h1>
+      <ForWhoItIs/>
       <Turism />
       <PontoTuristico />
       <Empreendedores />
+      <Footer/>
     </Container>
   );
 }
