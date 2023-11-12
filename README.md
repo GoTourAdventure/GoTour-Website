@@ -4,6 +4,19 @@
 
 O GoTour é um aplicativo mobile com propósito de tornar as experiências turísticas mais interativas e marcantes. Foi idealizado para além de ser possível pesquisar pontos turísticos, interagir com o ambiente através de tecnologia de realidade aumentada, encontrar recompensas exclusivas, descobrir curiosidades dos locais, colecionar lembranças de cada atração, realizar missões de visita e exploração, customizar seu avatar com diversos itens, comprar itens na loja e compartilhar suas conquistas com amigos. O jogo começa ao chegar no local, o usuário inicia a missão onde, através de enigmas, terá que procurar os itens com a câmera do celular para descobrir mais sobre a história do lugar, tornando assim a experiência numa verdadeira caça ao tesouro. Ao finalizar a missão o jogador ganhará lembranças do ponto turístico e moedas de ouro que podem ser trocadas por itens para personalizar o avatar ou itens que ajudam nas missões.
 
+![image](https://github.com/Jonas-eng-21/GoTour-Website/assets/51246457/1bffcf7c-be6e-4f61-93e7-858bf4e1bce9)
+
+![image](https://github.com/Jonas-eng-21/GoTour-Website/assets/51246457/7598d2cb-9573-4855-81f1-1d076447506e)
+
+![image](https://github.com/Jonas-eng-21/GoTour-Website/assets/51246457/a67d9d3a-a9a8-400a-959b-55388dc6b851)
+
+![image](https://github.com/Jonas-eng-21/GoTour-Website/assets/51246457/638dd315-b0c9-4631-b5d7-388dec528d87)
+
+![image](https://github.com/Jonas-eng-21/GoTour-Website/assets/51246457/9a188505-72c0-469f-8843-67381e7b5a9a)
+
+![image](https://github.com/Jonas-eng-21/GoTour-Website/assets/51246457/464d8314-7abf-4dc8-93a0-8366a63f3ef5)
+
+
 ## Instalação
 
 Siga os passos abaixo para baixar e instalar o projeto em sua máquina local:
