@@ -8,7 +8,7 @@ export const BodyContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 30vh;
-  background: rgba(0, 0, 0, 0.2); Cor de fundo com transparência
+  background: linear-gradient(30deg, #c0d9f9, #c7ecea, #cffddb);
 `;
 
 export const Container = styled.div`

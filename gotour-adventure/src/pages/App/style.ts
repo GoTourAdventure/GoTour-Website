@@ -35,7 +35,7 @@ export const Container = styled.div`
   }
 
   .App-header {
-    background-image: linear-gradient(to right, #16a5c1, #16a5c1, #16a5c1);
+    background-image: linear-gradient(30deg, #c0d9f9, #c7ecea, #cffddb);
     position: fixed;
     top: 0;
     left: 0;
@@ -50,14 +50,14 @@ export const Container = styled.div`
 
   .Mui-selected{
     font-weight: bold;
-    color: #FFA64A !important;
+    color: #FF8100 !important;
   }
   .MuiTabs-indicator{    
-    background: #FFA64A;
+    background: #FF8100;
   }
 
   .MuiTab-textColorPrimary{
-    color: white;
+    color: #0C8E98;
     font-weight: bold;
   }
 
