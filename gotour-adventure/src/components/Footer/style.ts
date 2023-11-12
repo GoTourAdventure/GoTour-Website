@@ -8,13 +8,13 @@ export const BodyContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 30vh;
-  background: #45474B;  
+  background: rgba(0, 0, 0, 0.2); Cor de fundo com transparência
 `;
 
 export const Container = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   align-content: center;
   
@@ -33,7 +33,7 @@ export const Container = styled.div`
     color: black;
   }
   .Ponto {
-    width: 20%;
+    width: 15%;
   }
 
   .gotour-span{
@@ -45,24 +45,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;    
-  padding: 0 60px 20px;
-  border: 2px solid rgba(255,255,255, 0.3);
-  border-radius: 30px;
-  background: rgba(255, 255, 255, 0.7); Cor de fundo com transparência
-  .social-links {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    
-    a {
-      margin: 0 10px;
-      color: #16a5c1;
-      text-decoration: none;
-      
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
+  justify-content: center;  
+  align-items: center;  
+  padding: 0 60px 20px;      
 `;

@@ -43,13 +43,15 @@ export default function ButtonContact() {
                 <Avatar>
                   <WhatsAppIcon />
                 </Avatar>
-                <p>(DDD) 99999-9999</p>
+                <a href="tel:5551234567">(81) 99999-9999</a>
               </Display>
               <Display>
                 <Avatar>
                   <Email />
                 </Avatar>
-                <p>gotour2023@gmail.com</p>
+                <p>
+                  <a href="mailto:gotour2023@gmail.com">gotour2023@gmail.com</a>
+                </p>
               </Display>
               <Display>
                 <Avatar>
