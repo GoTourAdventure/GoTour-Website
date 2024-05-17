@@ -1,5 +1,5 @@
 import { BodyContainer, Container } from "./style";
-import logo from "../../assets/LOGO PINCIPAL 2.svg";
+import logo from "../../assets/MainImage.png";
 import ButtonContact from "../ButtonContact";
 
 export default function HomeSection() {
@@ -7,7 +7,6 @@ export default function HomeSection() {
     <>
       <BodyContainer id="zero">
         <Container>
-          <img src={logo} className="App-logo" alt="logo" />
           <ButtonContact />
         </Container>
       </BodyContainer>

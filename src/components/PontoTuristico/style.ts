@@ -20,7 +20,6 @@ export const Container = styled.div`
   align-items: flex-start;
   align-content: center;
   width: 100%;
-  padding-right: 2%;
   padding: 30px;
 
   h1{

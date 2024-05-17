@@ -1,12 +1,15 @@
 import { styled } from "styled-components";
+import Main from "../../assets/MainImage.png";
 
 export const BodyContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
+  background: url(${Main}) no-repeat right;
+  background-size: cover;
 `;
 
 export const Container = styled.div`
@@ -16,7 +19,8 @@ export const Container = styled.div`
   align-items: center;
   align-content: center;
   width: 100%;
-  padding-right: 2%;
+  padding-top: 10%;
+  padding-left: 2%;
 
   
 `;
