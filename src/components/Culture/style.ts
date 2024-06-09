@@ -45,7 +45,6 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  width: 60%;
   margin-right: 40px;  
   background: white;
   padding: 0 60px 20px;

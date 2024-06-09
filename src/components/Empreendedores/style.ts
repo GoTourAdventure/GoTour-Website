@@ -12,6 +12,16 @@ export const BodyContainer = styled.div`
     height: 50%;
     width: 50%;
   }
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    padding: 10px;
+    flex-direction: column-reverse;
+
+    .Ponto{
+      border-radius: 50%;
+    }
+  }
 `;
 
 export const Container = styled.div`

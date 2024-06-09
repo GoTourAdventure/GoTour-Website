@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
 
 export const BodyContainer = styled.div`
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -11,6 +12,11 @@ export const BodyContainer = styled.div`
     height: 50%;
     width: 50%;
     margin-right: 40px;
+  }
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    padding: 10px;
   }
 `;
 

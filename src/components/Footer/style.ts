@@ -38,6 +38,14 @@ export const Container = styled.div`
     font-weight: bold;
     color: #16a5c1;
   }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    .Ponto{
+      width:25%;
+    }
+  }
 `;
 
 export const Content = styled.div`

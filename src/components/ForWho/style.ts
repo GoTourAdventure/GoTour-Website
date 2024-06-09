@@ -8,7 +8,7 @@ export const BodyContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 100vh;
-  background: url(${relogio}) no-repeat right;
+  background: url(${relogio}) no-repeat center;
   background-size: cover;
 `;
 

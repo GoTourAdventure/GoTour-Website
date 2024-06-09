@@ -10,6 +10,10 @@ export const BodyContainer = styled.div`
   height: 100vh;
   background: url(${ar}) no-repeat right;
   background-size: cover;
+
+  @media (max-width: 400px) {
+    height: auto;
+  }
 `;
 
 export const Container = styled.div`
@@ -46,7 +50,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  width: 40%;
+  
   margin-right: 40px;    
   background: white;
   padding: 0 60px 20px;

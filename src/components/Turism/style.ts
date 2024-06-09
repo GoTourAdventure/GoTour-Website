@@ -12,6 +12,16 @@ export const BodyContainer = styled.div`
     height: 50%;
     width: 50%;    
   }  
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    padding: 10px;
+    flex-direction: column-reverse;
+
+    .Ponto{
+      border-radius: 50%;
+    }
+  }
 `;
 
 export const Container = styled.div`
@@ -20,7 +30,6 @@ export const Container = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   align-content: center;
-  width: 50%;
   padding: 30px;
 
   h1{
