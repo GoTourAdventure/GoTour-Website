@@ -15,7 +15,16 @@ export const Container = styled.div`
   padding-top: 30px;
   font-size: calc(10px + 1vmin);
   color: #0C8E98;
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
   .homeSection{
     display: flex;
     height: 100%;
@@ -35,6 +44,7 @@ export const Container = styled.div`
   }
 
   .App-header {
+    width:100vw;
     background-image: linear-gradient(30deg, #c0d9f9, #c7ecea, #cffddb);
     position: fixed;
     top: 0;

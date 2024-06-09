@@ -19,8 +19,6 @@ export const Container = styled.div`
   align-content: center;
   
   width: 100%;
-  padding-right: 2%;
-
   h1 {
     font-size: 2em;
     padding: 0;

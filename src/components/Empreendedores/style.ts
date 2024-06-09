@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 
 export const BodyContainer = styled.div`
   display: flex;
+  overflow: hidden;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -20,7 +21,6 @@ export const Container = styled.div`
   align-items: flex-start;
   align-content: center;
   width: 100%;
-  padding-right: 2%;
   padding: 30px;
 
   h1{
